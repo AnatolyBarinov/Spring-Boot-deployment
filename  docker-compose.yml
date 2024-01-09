@@ -7,5 +7,3 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
-    volumes:
-      - ./target:/usr/src/app/target            # Монтируем каталог 'target' внутрь контейнера при запуске контейнера
